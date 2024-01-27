@@ -1,0 +1,45 @@
+:root {
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --dark-desaturated-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+
+  --white: hsl(0, 0%, 100%);
+
+  --manrope: Manrope, sans-serif;
+  --medium: 500;
+  --bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--very-dark-grayish-blue);
+  font-family: var(--manrope);
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid green;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 5%;
+}
